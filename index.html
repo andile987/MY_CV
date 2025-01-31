@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Andile Mthimkulu</title>
+    <title>Curriculum Vitae - Likwalethu Derrick Ngwenya</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body {
@@ -11,66 +11,61 @@
             margin: 0;
             padding: 0;
             background-color: #f7f7f7;
-            line-height: 1.6;
+            line-height: 1.5; /* Reduced line height */
             color: #333;
         }
 
         .container {
             max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
+            margin: 20px auto;
+            padding: 10px; /* Reduced padding */
             background-color: #fff;
             border-radius: 12px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
         .header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 15px; /* Reduced margin */
             color: #2c3e50;
         }
 
         .header h1 {
-            font-size: 36px;
+            font-size: 28px; /* Reduced font size */
             margin: 0;
-            color: #2980b9; /* Maintained the strong blue color */
+            color: #2980b9;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 700; /* Bold */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15), 0 0 10px rgba(41, 128, 185, 0.6); /* HD effect with blue glow */
+            letter-spacing: 1px;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15), 0 0 5px rgba(41, 128, 185, 0.6);
         }
 
         .header p {
-            font-size: 18px;
-            color: #555; /* Subtle grey for subtitle */
-            margin-top: 10px;
-        }
-
-        /* Apply minimal shadow to headings except h1 */
-        h2{
-            color: #2980b9; /* Strong blue color for headings */
-            font-weight: 700; /* Bold */
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-shadow: none; /* Removed shadow */
+            font-size: 16px; /* Reduced font size */
+            color: #555;
+            margin-top: 5px;
         }
 
         h2 {
-            font-size: 26px;
-            margin-bottom: 15px;
+            color: #2980b9;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 20px; /* Reduced font size */
+            margin-bottom: 10px;
             border-bottom: 2px solid #2980b9;
             padding-bottom: 5px;
         }
 
         h3 {
-            font-size: 22px;
-            margin-top: 15px;
-            margin-bottom: 10px;
+            font-size: 18px; /* Reduced font size */
+            margin-top: 10px;
+            margin-bottom: 5px;
             color: black;
         }
 
         section {
-            margin-bottom: 30px;
+            margin-bottom: 20px; /* Reduced margin */
         }
 
         section ul {
@@ -79,35 +74,32 @@
         }
 
         section li {
-            font-size: 16px;
-            margin-bottom: 10px;
+            font-size: 14px; /* Reduced font size */
+            margin-bottom: 8px; /* Reduced margin */
             line-height: 1.5;
         }
 
         section li strong {
-            color: #2980b9; /* Strong blue for titles */
+            color: #2980b9;
         }
 
-        /* Links Color */
         a {
             color: #2980b9;
             text-decoration: none;
         }
 
         a:hover {
-            color: #2c3e50; /* Darker blue for hover */
+            color: #2c3e50;
             text-decoration: underline;
         }
 
-        /* Card-like style for each section */
         section {
-            padding: 20px;
+            padding: 15px; /* Reduced padding */
             background-color: #ecf0f1;
             border-radius: 8px;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         }
 
-        /* Print-specific styles */
         @media print {
             body {
                 background-color: #fff;
@@ -118,37 +110,40 @@
             .container {
                 max-width: 100%;
                 margin: 0;
-                padding: 20px;
+                padding: 15px;
                 box-shadow: none;
-                font-size: 12px; /* Smaller font size for print */
+                font-size: 10px; /* Further reduced font size for print */
             }
 
             .header h1 {
-                font-size: 24px;
-            }
-
-            .header p {
-                font-size: 14px;
-                margin-bottom: 15px;
-            }
-
-            h2 {
-                font-size: 20px;
-            }
-
-            h3 {
                 font-size: 18px;
             }
 
-            section li {
+            .header p {
+                font-size: 12px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            h3 {
                 font-size: 14px;
             }
 
-            /* Ensure everything fits within one page */
+            section li {
+                font-size: 12px;
+            }
+
             html, body {
                 height: 100%;
                 width: 100%;
                 overflow: visible;
+            }
+
+            /* Page Break between CV and Motivational Letter */
+            #motivational-letter {
+                page-break-before: always; /* Ensures motivational letter is on a new page */
             }
         }
     </style>
@@ -157,63 +152,107 @@
 
     <div class="container">
         <header class="header">
-            <h1>Andile Mthimkulu</h1>
+            <h1>Mahlubandile Mthimkulu</h1>
             <p>Curriculum Vitae</p>
         </header>
-        
-        <section id="career-goals">
-            <h2>Career Goals</h2>
-            <p>Focused on leveraging technology to solve complex problems and drive digital transformation. I aim to develop expertise in data analysis, software development, and cybersecurity, while contributing to innovative solutions and continuous learning.</p>
+
+        <section id="Personal profile">
+            <h2>CAREER-GOALS</h2>
+            <p>I am a compassionate individual who thrives on meaningful interactions with others. With strong communication and listening skills, I excel as both an independent professional and a collaborative team member. Driven by motivation and resilience, I consistently work diligently to achieve my goals. My confidence and tenacity define my commitment to excellence.</p>
         </section>
 
-        <section id="personal-details">
+        <section id="CAREER-GOALS">
             <h2>Personal Details</h2>
             <ul>
-                <li><strong>Name:</strong> Andile Mthimkulu</li>
-                <li><strong>Age:</strong> 27</li>
-                <li><strong>Nationality:</strong> South African</li>
-                <li><strong>Email:</strong> <a href="mailto:andilehlubimthimkulu@gmail.com">andilehlubimthimkulu@gmail.com</a></li>
+                <li><strong>Name:</strong> Mahlubandile Mthimkulu</li>
+                <li><strong>Age:</strong> 28</li>
+                <li><strong>Email:</strong> <a href="mailto:sndilehlubs@gmail.com">andilehlub@gmail.com</a></li>
                 <li><strong>Contact:</strong> 0732266171</li>
                 <li><strong>Language:</strong> English</li>
             </ul>
         </section>
 
-        <section id="education">
-            <h2>Education & Qualifications</h2>
-            <h3>Tertiary Studies</h3>
-            <ul>
-                <li><strong>Institution:</strong> Stellenbosch University</li>
-                <li><strong>Degree:</strong> BA Humanities</li>
-                <li><strong>Majors:</strong> Organisational Informatics, Socio Informatics, History</li>
-                <li><strong>Year:</strong> 2024</li>
-            </ul>
+        <section id="experience">
+            <h2>Job Experience</h2>
+            <div style="margin-bottom: 15px; padding: 12px; border: 1px solid #ccc; border-radius: 8px; background-color: #ecf7f7;">
+                <h3 style="margin: 0; color: #2980b9; font-size: 18px;">Care Worker @ Legacy Agency Limited</h3>
+                <p style="margin: 5px 0 8px; font-size: 14px; color: #555;"><strong>September 2023 - Current</strong></p>
+                <ul style="padding-left: 20px;">
+                    <li>Assisting adults with daily needs, such as meal preparation.</li>
+                    <li>Providing day and night sitting services and administering medication.</li>
+                    <li>Managing laundry and documenting daily notes.</li>
+                    <li>Ensuring safety and promoting independent living for clients.</li>
+                    <li>Monitoring health and promoting community engagement.</li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 15px; padding: 12px; border: 1px solid #ccc; border-radius: 8px; background-color: #ecf7f7;">
+                <h3 style="margin: 0; color: #2980b9; font-size: 18px;">Care Worker @ Turning Point</h3>
+                <p style="margin: 5px 0 8px; font-size: 14px; color: #555;"><strong>March 2024 - Current</strong></p>
+                <ul style="padding-left: 20px;">
+                    <li>Supporting clients with daily living activities.</li>
+                    <li>Supporting individuals with learning disabilities, including those with autism, to develop essential life skills.</li>
+                    <li>Facilitating tailored care plans to meet the unique needs of people with autism.</li>
+                    <li>Encouraging social interaction and integration within the community for individuals with learning disabilities.</li>
+                    <li>Promoting independence and enhancing the quality of life for people with autism through personalized support.</li>
+                    
+                </ul>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <h3>Leadership & Experience</h3>
-            <ul>
-                <li>Stellenbosch University History Class Representative (2023-2024)</li>
-                <li>Vice President, Stellenbosch University History Society (2023)</li>
-            </ul>
+        <section id="Skills">
+            <h2>SKILLS</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Good Communication Skills</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Documentation</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Time management</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Reporting and Recording</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Good listener</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Maintaining confidentiality</div>
+            </div>
+        </section>
 
-            <h3>Software Engineering</h3>
-            <ul>
-                <li>UX / UI Design</li>
-                <li>Systems Analysis & Design</li>
-                <li>Application Development</li>
-                <li>Data Analysis (Python, R, SQL)</li>
-                <li>JavaScript, HTML, CSS, React</li>
-            </ul>
-
-            <h3>Driving Experience</h3>
-            <ul>
-                <li>Stellenbosch University History Society Shuttle Driver (2023-2024)</li>
-            </ul>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Playing Football</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Travelling</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Tennis Ball</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Cooking</div>
+                <div style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">Playing Snooker</div>
+            </div>
         </section>
     </div>
+    <section id="motivational-letter" style="margin-top: 30px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; background-color: #ecf7f7;">
+        <h2 style="color: #2980b9; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #2980b9; padding-bottom: 5px;">Motivational Letter</h2>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Dear Hiring Manager,
+        </p>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            I am writing to express my interest in the opportunity to work with your esteemed organization. With extensive experience in care work, strong interpersonal skills, and a dedication to supporting individuals, I am confident in my ability to contribute effectively to your team.
+        </p>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            My current role as a Care Worker has allowed me to develop and refine essential skills such as client care, time management, and problem-solving. I have consistently provided compassionate support, facilitated safe mobility, and ensured the overall well-being of my clients. These experiences have prepared me to excel in roles requiring both competence and empathy.
+        </p>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            I would like to bring to your attention that my sponsorship to work at Legacy Agency Limited has ended. Consequently, I am seeking a new sponsorship to continue working and contributing meaningfully to the care sector. I am eager to bring my skills and commitment to a new opportunity and continue making a positive impact.
+        </p>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Thank you for considering my application. I am available for an interview at your convenience and can be reached at <strong>0732266171</strong> or <strong>sampleemail@gmail.com</strong>. I look forward to the opportunity to discuss how my experience and dedication align with your needs.
+        </p>
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Sincerely,<br>
+            <strong>Mahlubandile Mthimkulu</strong>
+        </p>
+    </section>
+    
+    <section id="image" style="text-align: center; margin-top: 20px;">
+        <img src="https://img1.wsimg.com/isteam/stock/Ddj9aVd/:/cr=t:42.88%25,l:29.87%25,w:37.31%25,h:37.31%25/rs=h:1000,cg:true,m" alt="Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </section>
+    
+
 </body>
 </html>
+
 
 
 
